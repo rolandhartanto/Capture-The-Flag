@@ -1,2 +1,2 @@
-# CTF
-CTF Problem write-ups
+# CTF Write-ups
+Coming soon
