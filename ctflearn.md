@@ -19,6 +19,7 @@ You can input any string to the input field. In this case, you can try SQL Injec
 ' OR '1' = '1
 ```
 <br>
+
 ### > Don't Bump Your Head(er) - intelagent - 4pts
 Try to bypass my security measure on this site! https://ctflearn.com/header.php
 
@@ -52,6 +53,7 @@ User-Agent: Sup3rS3cr3tAg3nt
 Referer: awesomesauce.com
 ```
 <br>
+
 ## Miscellaneous
 
 
