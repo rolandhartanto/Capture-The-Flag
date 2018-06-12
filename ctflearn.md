@@ -12,19 +12,17 @@ Topics:
 ### > Basic Injection - intelagent - 2pts
 See if you can leak the whole database. https://web.ctflearn.com/web4/
 
-**Solution:**
-
+**Solution:**  
 You can input any string to the input field. In this case, you can try SQL Injection to leak the whole database. The flag is in the output.
 
 ```
 ' OR '1' = '1
 ```
-
+<br>
 ### > Don't Bump Your Head(er) - intelagent - 4pts
 Try to bypass my security measure on this site! https://ctflearn.com/header.php
 
-**Solution:**
-
+**Solution:**  
 When you visit the site, you can find the clue in the HTML code.
 ```
 <html>
@@ -47,13 +45,13 @@ Sorry, it seems as if you did not just come from the site, "awesomesauce.com".
 
 You have to change the Referer in the header to awesomesauce.com then you send GET request again to https://ctflearn.com/header.php. The response contains the flag in it.
 
-**Summary:**
+**Summary:**  
 Send request to https://ctflearn.com/header.php with this header:
 ```
 User-Agent: Sup3rS3cr3tAg3nt
 Referer: awesomesauce.com
 ```
-
+<br>
 ## Miscellaneous
 
 
