@@ -87,7 +87,35 @@ To show the second picture, you have to delete the first picture. After deleting
 
 **Summary:**  
 1. Delete the first picture to show the second picture
-2. Open the picture using image viewer
+2. Open the picture using image viewer  
+<br>
+
+### > Git Is Good - intelagent - 5pts
+The flag used to be there. But then I redacted it. Good Luck. https://mega.nz/#!C483DAYB!Jjr55hfJQJ5-jspnyrnVtqBkMHGJrd6Nn_QqM7iXEuc 
+
+**Solution:**  
+You will find a text file inside the folder. If you open the file (flag.txt), you will find `flag{REDACTED}` string. Open the terminal  inside that folder. Type `git log` to view the commits history.
+```
+$ git log
+commit d10f77c4e766705ab36c7f31dc47b0c5056666bb
+Author: LaScalaLuke <lascala.luke@gmail.com>
+Date:   Sun Oct 30 14:33:18 2016 -0400
+
+    Edited files
+
+commit 195dd65b9f5130d5f8a435c5995159d4d760741b
+Author: LaScalaLuke <lascala.luke@gmail.com>
+Date:   Sun Oct 30 14:32:44 2016 -0400
+
+    Edited files
+
+commit 6e824db5ef3b0fa2eb2350f63a9f0fdd9cc7b0bf
+Author: LaScalaLuke <lascala.luke@gmail.com>
+Date:   Sun Oct 30 14:32:11 2016 -0400
+
+    edited files
+```  
+To revert to previous commit, you can use `git revert [commit SHA hash]`. After reverting, open the flag.txt file and you will find the right flag.  
 <br>
 
 ## Programming
