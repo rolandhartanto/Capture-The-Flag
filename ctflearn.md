@@ -118,6 +118,21 @@ Date:   Sun Oct 30 14:32:11 2016 -0400
 To revert to previous commit, you can use `git revert [commit SHA hash]`. After reverting, open the flag.txt file and you will find the right flag.  
 <br>
 
+### > Taking LS - alexkato29 - 2pts
+Just take the Ls<br /> https://mega.nz/#!9Mk00LxR!_FtmAm8s_mpsHr7KWv8GYUzhbThNn0I8cHMBi4fJQp8<br /> NOTE: Problem is really only for mac users - sorry in advance - free points if you have a different operating system though :) 
+
+**Solution:**  
+You DON'T HAVE TO USE MAC to solve this problem. You can solve it using Linux :D. If you go to deepest "The Flag" directory, you will find a PDF file. That file can be opened if you have the password. There are two kind of files and folders, the visible and the hidden. The file or folder with '.' in front of the file name is hidden in Linux. So, to make it visible, you can use `ls` with additional flag behind it. Try `ls -ld .*` and you will see the output like this.
+
+```
+drwxr-xr-x 3 user rvm 4096 Okt 30  2016 .             # current directory
+drwxr-xr-x 4 user rvm 4096 Jun 20 16:16 ..            # parent directory
+-rw-r--r-- 1 user rvm 6148 Okt 30  2016 .DS_Store
+drwxr-xr-x 2 user rvm 4096 Okt 30  2016 .ThePassword  # this is the directory you are looking for
+```  
+Go to ".ThePassword" directory and you will find a txt file which contains the PDF password. Enter the password to the PDF file and you will find the flag.
+
+
 ## Programming
 Coming soon
 
