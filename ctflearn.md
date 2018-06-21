@@ -61,7 +61,34 @@ Referer: awesomesauce.com
 
 
 ## Forensics
+### > Binwalk - alexkato29 - 2pts
+https://mega.nz/#!4UEnAZKT!-deNdQJxsQS8bTSMxeUOtpEclCI-zpK7tbJiKV0tXYY
 
+**Solution:**  
+Files can be opened by text editor. After opening the file with text editor, you can see the content of the file.
+```
+‰PNG
+SUB
+NULNULNUL
+IHDR ... the content of the file
+...
+```
+IHDR is usually the format for PNG files. Search for "IHDR" in the file and you will find another "IHDR" string somewhere in the file. It means that that file contains more than one picture (It is possible to put another picture/file after the end of the host file).
+```
+... first picture
+...
+‰PNG
+SUB
+NULNULNUL
+IHDR ... the content of the second file
+...
+```
+To show the second picture, you have to delete the first picture. After deleting the first picture, you can see the flag by opening the file with image viewer.
+
+**Summary:**  
+1. Delete the first picture to show the second picture
+2. Open the picture using image viewer
+<br>
 
 ## Programming
 Coming soon
