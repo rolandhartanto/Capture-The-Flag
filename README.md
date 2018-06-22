@@ -3,4 +3,4 @@
 **Write-up links:**
 - **CTFLearn:**
   - website: ctflearn.com
-  - [write-up](ctflearn.md)
+  - [write-up](ctflearn/ctflearn.md)
