@@ -54,6 +54,11 @@ Referer: awesomesauce.com
 ```
 <br>
 
+### > POST Practice - intelagent - 6pts
+These website requires authentication, via POST. However, it seems as if someone has defaced our site. Maybe these is still some way to authenticate? https://ctflearn.com/post.php
+
+**Solution:**  
+
 ## Miscellaneous
 
 
