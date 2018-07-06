@@ -28,11 +28,12 @@ The vulnerability of `index.php` is `extract($_POST)` as shown in this code.
   }
 ?>
 ``` 
-With `extract` function and `$_POST` as it's parameter, you can modify $guess and $number variable by sending POST request to http://103.200.4.156:8350/ with `guess` and `number` as it's parameter. For example, if you use postman, you can fill the POST body like this.
+With `extract` function and `$_POST` as it's parameter, you can modify $guess and $number variable by sending POST request to http://103.200.4.156:8350/ with `guess` and `number` as it's parameter. For example, if you use postman, you can fill the POST body like this.  
+
 | key | value |
-|-----|:-----:|
-|guess|1|
-|number|1|
+| ----- | -----: |
+| guess | 1 |
+| number | 1 |
 
 After that, you will receive the flag in the response body.
 <br>
