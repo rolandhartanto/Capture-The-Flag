@@ -58,7 +58,8 @@ Referer: awesomesauce.com
 These website requires authentication, via POST. However, it seems as if someone has defaced our site. Maybe these is still some way to authenticate? https://ctflearn.com/post.php
 
 **Solution:**  
-
+Inspect element and send the username and password using POST request.  
+<br>
 ## Miscellaneous
 
 
