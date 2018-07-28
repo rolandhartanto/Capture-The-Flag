@@ -35,11 +35,11 @@ With `extract` function and `$_POST` as it's parameter, you can modify $guess an
 | guess | 1 |
 | number | 1 |
 
-After that, you will receive the flag in the response body.
+After that, you will receive the flag in the response body.  
 <br>
 
 ## Cryptography
-### Xorry
+### > Xorry - 70pts
 Run the attached script with:  
 `python3 xorry.py`  
 Good luck! :)
@@ -75,3 +75,11 @@ if wwhatisthisvariable == secret_password:
 **Solution:**  
 To get the flag, `wwhatisthisvariable` variable must have the same value as `secret_password` variable. We can see that the operation in function y only using XOR to encrypt the string. The operation is XOR between the plain text and the key. The key to encrypt the plain text is `1234`. So, to get the the plain text, do XOR operation between secret_password and `1234`. After you get the plain text, just do the operation inside the conditional and you will get the flag.  
 <br>
+
+### > Caesar - 50 pts
+ULXP{a_lzafc_lzak_hjgtwde_ak_lgg_wskq_xgj_qgm_kg_a_oadd_ljq_lg_escw_kgewlzafy_zsjvwj_fwpl_laew}
+
+**Solution:**  
+Use Caesar Cipher to decript the ciphertext flag.  
+<br>
+
