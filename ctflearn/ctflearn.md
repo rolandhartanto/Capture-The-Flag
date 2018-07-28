@@ -64,7 +64,21 @@ Inspect element and send the username and password using POST request.
 Coming soon
 
 ## Cryptography
-Coming soon
+### > Math Problems - skywalkrs - 4pts
+So, if 1+1=B, and 13•2=Z, then calculate all this.
+1+2,10+10,4+2,{6÷2,9•2,5^2,4^3÷4,10•10÷5,1^10^10^100,3•6,3^2,5•4,2^3,[(Z+1)÷2]-0.5,100÷20,4•4+4,3^3÷3,100-97}
+
+**Solution:**  
+Count it manually and follow the rule which is explained in the problem description.  
+<br>
+
+### > I Heard You Can't ROT13 Numbers - Entropy - 2pts
+I saw this in a file but I can't figure out what it meant: MzkuM3gaMKE0nJ5aK3A0LKW0MJE9  
+Can you help?
+
+**Solution:**  
+It looks like the string is in base64 form, but, if you decode it using base64 decoder first, you will not get the flag. Don't worry... the title shows us the clue. So, if you decrypt it using **ROT13 first** and **then use base64 decoder** to decode it, it will show you the flag.  
+<br>
 
 ## Forensics
 ### > Binwalk - alexkato29 - 2pts
