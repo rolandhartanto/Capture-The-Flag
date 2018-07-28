@@ -61,10 +61,10 @@ These website requires authentication, via POST. However, it seems as if someone
 Inspect element and send the username and password using POST request.  
 <br>
 ## Miscellaneous
-
+Coming soon
 
 ## Cryptography
-
+Coming soon
 
 ## Forensics
 ### > Binwalk - alexkato29 - 2pts
@@ -136,11 +136,16 @@ drwxr-xr-x 4 user rvm 4096 Jun 20 16:16 ..            # parent directory
 -rw-r--r-- 1 user rvm 6148 Okt 30  2016 .DS_Store
 drwxr-xr-x 2 user rvm 4096 Okt 30  2016 .ThePassword  # this is the directory you are looking for
 ```  
-Go to ".ThePassword" directory and you will find a txt file which contains the PDF password. Enter the password to the PDF file and you will find the flag.
-
+Go to ".ThePassword" directory and you will find a txt file which contains the PDF password. Enter the password to the PDF file and you will find the flag.  
+<br>
 
 ## Programming
-Coming soon
+### > Privacy Matters - niclev20 - 4pts
+The URL that has the flag got corrupted again... here it is: êööòõ¼±±åñæçòçð°ëñ±ðëåîçø´²±è÷îî±øûÛÓüÉ±
+
+**Solution:**  
+URL usually begins with `https://`. As you can see, the encoded string begins with `êööòõ¼±±` which matches the URL `https://` pattern. So, basically it is a Caesar Cipher. After decoding the string, visit the URL. You can use inspect element to find the flag.  
+<br>
 
 ## Binary Exploitation
 Coming soon
