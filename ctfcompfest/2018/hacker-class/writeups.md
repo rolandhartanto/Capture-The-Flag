@@ -3,6 +3,8 @@
 Topics:
 - [Web](#web)
 - [Cryptography](#cryptography)
+- [Reverse Engineering](#reverse-engineering)
+- [Forensic](#forensic)
 
 ## Web
 ### > Find The Flag in Homepage - 50pts
@@ -83,3 +85,19 @@ ULXP{a_lzafc_lzak_hjgtwde_ak_lgg_wskq_xgj_qgm_kg_a_oadd_ljq_lg_escw_kgewlzafy_zs
 Use Caesar Cipher to decript the ciphertext flag.  
 <br>
 
+## Reverse Engineering
+### > Rev1 - 407 pts
+Crack this flag checker!  
+[crackme](attachment/Reverse\ Engineering/Rev1)
+
+**Solution:**
+Use decompiler (mine is IDA), and generate the pseudocode. There's a function named `check` which contains conditionals to check the user input. All you have to do is decode the ASCII numbers to characters that satisfy the conditionals.  
+<br>
+
+## Forensic
+### > Where This Photo Taken - 50 pts
+The Flag is MD5 of city where this photo taken  
+![photo](attachment/Forensic/Where\ This\ Photo\ Taken/kucing_unyu.jpg)
+
+**Solution:**
+Use Exiftool to view the picture information. After that, search the city full name where the photo was taken at Indonesian Wikipedia. Encript the city name with MD5 and submit the answer with CTFX{flag} format. 
