@@ -147,6 +147,13 @@ The URL that has the flag got corrupted again... here it is: êööòõ¼±±å�
 URL usually begins with `https://`. As you can see, the encoded string begins with `êööòõ¼±±` which matches the URL `https://` pattern. So, basically it is a Caesar Cipher. After decoding the string, visit the URL. You can use inspect element to find the flag.  
 <br>
 
+### > What's Your Favorite Number of the Alpha - niclev20 - 4pts
+The flag accidentally got changed into something else. Here is the flag: ¥¦§¸ªßØÌÉÃÊÐÅËá If it helps, I think the first letter was an A (capitalized)... Title is supposed to be "What's Your Favorite Number of the Alphabet, got cut off :(
+
+**Solution:**
+The solution is similar to [Privacy Matters](#-privacy-matters---niclev20---4pts) problem.  
+<br>
+
 ## Binary Exploitation
 Coming soon
 
