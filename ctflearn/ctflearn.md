@@ -61,7 +61,12 @@ These website requires authentication, via POST. However, it seems as if someone
 Inspect element and send the username and password using POST request.  
 <br>
 ## Miscellaneous
-Coming soon
+### Are You Good for NSA ? - ruLegen - 2pts
+Who did this Photo?  
+https://mega.nz/#!Z5VBjTgT!Y0inhMabnQGqaft8PAMg8W1g93v3vsFmLW1p-s9GANU
+
+**Solution:**  
+Use Exiftool to view the picture information and you will find the flag.
 
 ## Cryptography
 ### > Math Problems - skywalkrs - 4pts
@@ -87,7 +92,7 @@ Help Aniket find out what Jacob's orginal high school is. The flag can be submit
 **Solution:**  
 First, decode the hex code to ASCII and you will find the string length of the school name. The problem description gives us a clue which is the last sentence ("don't include spaces in the flag"). It means that the school name may have two or more words. After knowing all the clues, all you have to do is search the school name in the document.  
 <br>
- 
+
 ## Forensics
 ### > Binwalk - alexkato29 - 2pts
 https://mega.nz/#!4UEnAZKT!-deNdQJxsQS8bTSMxeUOtpEclCI-zpK7tbJiKV0tXYY
