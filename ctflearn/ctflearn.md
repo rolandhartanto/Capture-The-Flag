@@ -80,6 +80,14 @@ Can you help?
 It looks like the string is in base64 form, but, if you decode it using base64 decoder first, you will not get the flag. Don't worry... the title shows us the clue. So, if you decrypt it using **ROT13 first** and **then use base64 decoder** to decode it, it will show you the flag.  
 <br>
 
+### > Math questions are fun, right? - jakeg314 - 4pts
+Aniket wants to know what Jacob's original high school is. However, Jacob only gives Aniket a hint with the code: 4c4c434d4953494f4f524d57574e204a57484e2041464c4b5357. Jacob also gives Aniket this document: https://www.una.edu/math/mathcontest/Documents/2016StateMathContestResults.pdf
+Help Aniket find out what Jacob's orginal high school is. The flag can be submitted as flag{SchoolName}. Don't include "high school" and don't include spaces in the flag.
+
+**Solution:**  
+First, decode the hex code to ASCII and you will find the string length of the school name. The problem description gives us a clue which is the last sentence ("don't include spaces in the flag"). It means that the school name may have two or more words. After knowing all the clues, all you have to do is search the school name in the document.  
+<br>
+ 
 ## Forensics
 ### > Binwalk - alexkato29 - 2pts
 https://mega.nz/#!4UEnAZKT!-deNdQJxsQS8bTSMxeUOtpEclCI-zpK7tbJiKV0tXYY
